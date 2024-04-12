@@ -4,11 +4,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = getenv("TOKEN", None)
+TOKEN = getenv("TOKEN", "7085860807:AAGgnnMH092foEtejPVkgpy0xGXrFM0T_8k")
 "Telegram bot token obtained from botfather"
 DB_URI = getenv("MONGO_URL")
 "database url (mongo)"
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = "5631563685"
 "Telegram ID of the bot owner"
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 "channel/group ID with `-` for keeping track of new errors where the bot gets..."
